@@ -22,7 +22,7 @@ last_seen_files = set(os.listdir(folder_path))# Gives the set of all files befor
 print("Waiting for new image in:", folder_path)
 
 timeout = 60
-start_time = time.time() # Notes the clock time
+start_time = time.time() # Notes the clock time at the start of the program 
 new_file = None
 
 while True:
